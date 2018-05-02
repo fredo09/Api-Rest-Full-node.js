@@ -22,7 +22,7 @@ function isAuth(req, res, next){
     })
   }
 
-  //Este es el nuevo usuario 
+  //Este es el nuevo usuario
   req.user = payload.sub
   next()
 }
